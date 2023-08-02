@@ -108,13 +108,76 @@ nav {
   gap: 88px;
 }
 .let_top_image {
-    position: absolute;
-    top: 30%;
+  position: absolute;
+  top: 30%;
 }
 
 .let_top_images {
-    position: absolute;
-    top: 30%;
-    left: 93pc;
-    right: 0pc;
+  position: absolute;
+  top: 30%;
+  left: 93pc;
+  right: 0pc;
+}
+.current_right h1 {
+  color: var(--color);
+  font-family: Poppins;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 187.5%;
+}
+.currebt_buuton {
+  width: 139px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+  color: var(--color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.current_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7%;
+  margin-top: 4pc;
+}
+
+.box_item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.box_text p {
+  color: var(--color);
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%;
+  margin-left: 1.5pc;
+}
+.box_item img {
+  margin-left: 1.5pc;
+}
+.card_main {
+  margin-top: 5pc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7%;
+}
+.lorem_text {
+  text-align: center;
+}
+.lorem_text h1 {
+  margin-top: 8pc;
+  color: var(--color);
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%;
 }
